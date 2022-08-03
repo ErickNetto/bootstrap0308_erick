@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Secular+One&display=swap" rel="stylesheet">
   </head>
   <body style="background-color:#8C2703">
     <header>
-        <div>
+        <div class="container-fluid">
             <div class="row">
                 <div class="col">
                     <h1 class='col col-12' style="height: 400px; object-position: center; text-align:center; background-image: url(./assets/pao1.jpg); color: #F27F3D;font-family: 'Secular One', sans-serif; font-size: 300px; display: flex; align-items: center;justify-content: center;">Pão</h1>
@@ -20,17 +20,73 @@
             </div>    
         </div>    
     </header>
-    <main >
+    <main style="margin-top:15%;margin-bottom:15%">
         <div class="container">
             <div class="row">
-                <div class="col col-xxl-10 col">
-                    <h1></h1>
+                <div class="col col-12">
+                    <h1 style="font-family: 'Secular One', sans-serif;color: #F27F3D;">O pão de cada dia</h1>
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./assets/pao5.jpg" class="d-block w-100" style="height:600px;object-fit:cover" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/pao6.jpg" class="d-block w-100" style="height:600px;object-fit:cover" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/pao7.jpg" class="d-block w-100" style="height:600px;object-fit:cover" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/pao8.jpg" class="d-block w-100" style="height:600px;object-fit:cover" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/pao9.jpg" class="d-block w-100" style="height:600px;object-fit:cover" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    <p style="font-family: 'Josefin Sans', sans-serif;color: #D9C091; font-size: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quos distinctio saepe porro fuga molestiae impedit, placeat quidem praesentium natus repudiandae consequatur eum dicta blanditiis enim, rem sunt commodi? Itaque?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat amet quo quos neque nobis, eius earum exercitationem culpa aut impedit cum odio molestiae sequi vel voluptate? Sint aperiam iusto optio.</p>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-
+        <div class="container-fluid">
+            <div class="row" style="margin-top: 40px; margin-bottom: 40px;">
+                <div class="card col col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12" style="background-color:#8C6645;">
+                    <img src="./assets/pao2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card col col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12" style="background-color:#8C6645;">
+                    <img src="./assets/pao3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card col col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12" style="background-color:#8C6645;">
+                    <img src="./assets/pao4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
